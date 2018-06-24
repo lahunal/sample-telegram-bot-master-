@@ -1,0 +1,31 @@
+{
+  "name": "sample-telegram-bot",
+  "version": "1.0.0",
+  "description": "A learning tool for how to make a bot on telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node source/index.ts",
+    "develop": "nodemon --watch source --exec ts-node source/index.ts --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-c-levin/sample-telegram-bot.git"
+  },
+  "author": "Joshua Levin",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/j-c-levin/sample-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/j-c-levin/sample-telegram-bot#readme",
+  "dependencies": {
+    "telegraf": "^3.20.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "ngrok": "^3.0.1",
+    "nodemon": "^1.17.3",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
+  }
+}
